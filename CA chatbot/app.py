@@ -3,9 +3,7 @@ from nltk.chat.util import Chat, reflections
 
 app = Flask(__name__)
 
-# Define the pairs for the chatbot
-# Pairs is a list of patterns and responses tailored for accounting-related questions from customers.
-# Define the pairs for the chatbot
+# pairs for the chatbot
 pairs = [
 
     # Greetings and conversation starters
